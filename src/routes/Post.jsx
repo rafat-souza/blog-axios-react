@@ -14,9 +14,9 @@ const Post = () => {
     try {
       const response = await blogFetch.get(`/posts/${id}`);
 
-      const postData = response.data;
+      const data = response.data;
 
-      setPost(postData);
+      setPost(data);
     } catch (error) {
       console.log(error);
     }
