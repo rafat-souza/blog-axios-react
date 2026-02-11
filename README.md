@@ -5,4 +5,5 @@ Projeto de página de administrador de um blog
 Para usar, acesse o terminal na pasta baixada e digite:
 - npm install
 - npm run dev
+
 Após isso, abra uma guia no seu navegador e entre no endereço http://localhost:5173
